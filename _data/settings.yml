@@ -18,5 +18,5 @@ social:
 - {icon: 'instagram', link: 'https://instagram.com/paululele'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
-contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+contact:
+- {name: 'Jaime Herrera', institution: 'Loyola University Chicago', email: 'jherrera19@luc.edu', image: 'assets/img/contact.jpg'}
