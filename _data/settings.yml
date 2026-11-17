@@ -1,22 +1,10 @@
 menu:
 - {name: 'Personal', url: '/personal'}
 - {name: 'Preprints', url: '/preprint'}
-- {name: 'courses', url: '/courses'}
-- {name: 'cv', url: '/cv'}
-- {name: 'contact', url: '/contact'}
+- {name: 'CV', url: '/cv'}
+- {name: 'Contact', url: '/contact'}
 
 
-
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
-
-social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contact:
 - {name: 'Jaime Herrera', institution: 'Loyola University Chicago', email: 'jherrera19@luc.edu', image: 'assets/img/contact.jpg'}
