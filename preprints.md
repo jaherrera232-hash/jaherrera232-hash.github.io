@@ -1,4 +1,5 @@
 ---
-layout: preprints
+layout: publications
 title: "Preprints"
+permalink: /preprint
 ---
