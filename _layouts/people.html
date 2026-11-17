@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-{{ content }}
-
 <h3 class="fw-bold border-bottom pb-3 mb-5">People</h3>
 {% for person in site.data.settings.people %}
 <div class="row g-5 mb-5">
@@ -17,4 +14,7 @@ layout: default
     <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
   </div>
 </div>
+{{ content }}
+
+
 {% endfor %}
