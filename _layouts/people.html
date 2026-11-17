@@ -2,21 +2,19 @@
 layout: default
 ---
 <h3 class="fw-bold border-bottom pb-3 mb-5">Personal</h3>
-{{ content }}
 
-{% for person in site.data.settings.people %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <h5>{{ person.name }}</h5>
-    <p>Email: {{ person.email }}</p>
-    <p>Phone: {{ person.phone }}</p>
-    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p>
+    {{ content }}
   </div>
+
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
+    <img src="{{ '/assets/img/Lemans.JPEG' | relative_url }}"
+         alt="This is my 1970 Pontaic Lemans. Both me and my Dad have been working on it over past few years."
+         style="width: 100%; height: auto; margin-bottom: 20px;">
+
+    <img src="{{ '/assets/img/photo2.jpg' | relative_url }}"
+         alt="Description of second photo"
+         style="width: 100%; height: auto;">
   </div>
 </div>
-
-
-
-{% endfor %}
