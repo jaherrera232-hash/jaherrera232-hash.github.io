@@ -1,6 +1,6 @@
 menu:
 - {name: 'people', url: '/people'}
-- {name: 'publications', url: '/publications'}
+- {name: 'Preprints', url: '/preprint'}
 - {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
